@@ -1,5 +1,5 @@
-class blah {
-  file { "/home/vagrant/blah.txt":
+class whatever {
+  file { "/home/vagrant/whatever.txt":
     ensure => "present",
     content => inline_template("This is whatever"),
     owner => "vagrant",
