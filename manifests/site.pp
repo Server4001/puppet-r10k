@@ -1,3 +1,3 @@
-node "wikitest" {
-  class {"whatever": }
+node "default" {
+  hiera_include("classes")
 }
