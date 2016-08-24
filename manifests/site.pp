@@ -1,7 +1,4 @@
-node "wiki" {
-  class {"blah": }
+node "default" {
+  hiera_include("classes")
 }
 
-node "wikitest" {
-  class {"blah": }
-}
